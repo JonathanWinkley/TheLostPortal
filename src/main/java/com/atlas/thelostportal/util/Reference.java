@@ -10,5 +10,4 @@ public class Reference
 	public static final String COMMON_PROXY_CLASS = "com.atlas.thelostportal.proxy.CommonProxy";
 	
 	public static final int GUI_NON_ENERGY_FORGE = 1;
-	public static final int GUI_SINTERING_FURNACE = 2;
 }
