@@ -1,0 +1,13 @@
+itemGroup.creativetab=The Lost Portal
+
+item.basic_blade.name=Basic Blade
+item.tier_1_blade.name=Tier 1 Blade
+item.tier_2_blade.name=Tier 2 Blade
+
+tile.stand_in.name=Stand In Block
+tile.nether_obi.name=Nether Infused Obsidian
+tile.chorus_stone.name=Chorus Infused End Stone
+
+tile.non_energy_forge.name=Basic Portal Forge
+
+container.non_energy_forge=Basic Portal Forge

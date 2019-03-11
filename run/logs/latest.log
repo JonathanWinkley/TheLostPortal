@@ -1,0 +1,341 @@
+[09:04:17] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/239294/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:04:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:04:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:04:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:04:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:04:17] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[09:04:17] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Mac OS X:x86_64:10.13.6, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre
+[09:04:17] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[09:04:17] [main/ERROR] [FML]: Full: /Users/239294/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[09:04:17] [main/ERROR] [FML]: Trimmed: /users/239294/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[09:04:17] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[09:04:17] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[09:04:18] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[09:04:18] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[09:04:18] [main/INFO] [FML]: Searching /Users/239294/Desktop/Modding/TheLostPortal/run/./mods for mods
+[09:04:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:04:18] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[09:04:18] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[09:04:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:04:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[09:04:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[09:04:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:04:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:04:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:04:20] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[09:04:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:04:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[09:04:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[09:04:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[09:04:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[09:04:20] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[09:04:22] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player659
+[09:04:27] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[09:04:27] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.2
+[09:04:28] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.13.6
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 153640768 bytes (146 MB) / 367001600 bytes (350 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.36.23' Renderer: 'Intel(R) HD Graphics 6000'
+[09:04:28] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[09:04:28] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[09:04:28] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[09:04:28] [main/INFO] [FML]: Searching /Users/239294/Desktop/Modding/TheLostPortal/run/./mods for mods
+[09:04:31] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[09:04:31] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 2743827062 nanos
+[09:04:32] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, thelostportal] at CLIENT
+[09:04:32] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, thelostportal] at SERVER
+[09:04:32] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Lost Portal
+[09:04:33] [main/INFO] [FML]: Processing ObjectHolder annotations
+[09:04:33] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[09:04:33] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[09:04:33] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[09:04:33] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[09:04:33] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[09:04:33] [main/INFO] [FML]: Applying holder lookups
+[09:04:33] [main/INFO] [FML]: Holder lookups applied
+[09:04:33] [main/INFO] [FML]: Applying holder lookups
+[09:04:33] [main/INFO] [FML]: Holder lookups applied
+[09:04:33] [main/INFO] [FML]: Applying holder lookups
+[09:04:33] [main/INFO] [FML]: Holder lookups applied
+[09:04:33] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[09:04:33] [main/INFO] [FML]: Applying holder lookups
+[09:04:33] [main/INFO] [FML]: Holder lookups applied
+[09:04:33] [main/INFO] [FML]: Injecting itemstacks
+[09:04:33] [main/INFO] [FML]: Itemstack injection complete
+[09:04:36] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[09:04:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[09:04:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:04:36] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[09:04:37] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[09:04:42] [main/INFO] [FML]: Max texture size: 16384
+[09:04:42] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture thelostportal:textures/blocks/stand_in.png with size 8x8 will have visual artifacts at mip level 4, it can only support level 3. Please report to the mod author that the texture should be some multiple of 16x16.
+[09:04:42] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[09:04:45] [main/INFO] [FML]: Applying holder lookups
+[09:04:45] [main/INFO] [FML]: Holder lookups applied
+[09:04:45] [main/INFO] [FML]: Injecting itemstacks
+[09:04:45] [main/INFO] [FML]: Itemstack injection complete
+[09:04:45] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[09:04:45] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN thelostportal
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:   domain thelostportal is missing 4 textures
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:     domain thelostportal has 1 location:
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:       mod thelostportal resources at /Users/239294/Desktop/Modding/TheLostPortal/bin
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain thelostportal are:
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/non_energy_forge_bottom.png
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/non_energy_forge_side.png
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/running_non_energy_forge_side.png
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/non_energy_forge_top.png
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain thelostportal
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
+[09:04:46] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[09:04:47] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[09:05:08] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[09:05:08] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[09:05:09] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[09:05:09] [Server thread/INFO] [FML]: Applying holder lookups
+[09:05:09] [Server thread/INFO] [FML]: Holder lookups applied
+[09:05:09] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@17f93a7a)
+[09:05:10] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[09:05:10] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@17f93a7a)
+[09:05:10] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@17f93a7a)
+[09:05:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[09:05:11] [Server thread/INFO] [FML]: Unloading dimension -1
+[09:05:11] [Server thread/INFO] [FML]: Unloading dimension 1
+[09:05:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[09:05:12] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[09:05:12] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[09:05:12] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,thelostportal@1.0,mcp@9.42
+[09:05:12] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[09:05:12] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[09:05:12] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player659[local:E:c108c8ea] logged in with entity id 0 at (3.4181479143315476, 4.0, 11.76486266516988)
+[09:05:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player659 joined the game
+[09:05:14] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[09:05:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[09:05:15] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@73222105[id=1dc55782-3c00-3ed4-bf8b-76d4c6d9cc47,name=Player659,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3181) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[09:05:29] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace is missing a mapping! This is a bug!
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_191]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_191]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: java.lang.RuntimeException: class com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace is missing a mapping! This is a bug!
+	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:89) ~[TileEntity.class:?]
+	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:80) ~[TileEntity.class:?]
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.writeToNBT(TileEntitySinteringFurnace.java:88) ~[TileEntitySinteringFurnace.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
+	at net.minecraft.world.World.setBlockState(World.java:394) ~[World.class:?]
+	at com.atlas.thelostportal.objects.blocks.machines.BlockSinteringFurnace.onBlockAdded(BlockSinteringFurnace.java:82) ~[BlockSinteringFurnace.class:?]
+	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:662) ~[Chunk.class:?]
+	at net.minecraft.world.World.setBlockState(World.java:401) ~[World.class:?]
+	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:199) ~[ItemBlock.class:?]
+	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:57) ~[ItemBlock.class:?]
+	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:876) ~[ForgeHooks.class:?]
+	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:200) ~[ItemStack.class:?]
+	at net.minecraft.server.management.PlayerInteractionManager.processRightClickBlock(PlayerInteractionManager.java:507) ~[PlayerInteractionManager.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTryUseItemOnBlock(NetHandlerPlayServer.java:769) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:68) ~[CPacketPlayerTryUseItemOnBlock.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:13) ~[CPacketPlayerTryUseItemOnBlock.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_191]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[09:54:03] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2889596ms behind, skipping 57791 tick(s)
+[09:54:05] [Server thread/ERROR] [FML]: A TileEntity type com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace has throw an exception trying to write state. It will not persist. Report this to the mod author
+java.lang.RuntimeException: class com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace is missing a mapping! This is a bug!
+	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:89) ~[TileEntity.class:?]
+	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:80) ~[TileEntity.class:?]
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.writeToNBT(TileEntitySinteringFurnace.java:88) ~[TileEntitySinteringFurnace.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:414) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:185) [AnvilChunkLoader.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:214) [ChunkProviderServer.class:?]
+	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:242) [ChunkProviderServer.class:?]
+	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:1061) [WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:468) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.saveAllWorlds(IntegratedServer.java:274) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:766) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[09:54:06] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Time ran backwards! Did the system time change?
+[09:54:23] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 12 advancements
+[09:54:37] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraft.util.ReportedException: Ticking block entity
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:848) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) ~[MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) ~[IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+Caused by: java.lang.RuntimeException: class com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace is missing a mapping! This is a bug!
+	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:89) ~[TileEntity.class:?]
+	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:80) ~[TileEntity.class:?]
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.writeToNBT(TileEntitySinteringFurnace.java:88) ~[TileEntitySinteringFurnace.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
+	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
+	at net.minecraft.world.World.setBlockState(World.java:394) ~[World.class:?]
+	at com.atlas.thelostportal.objects.blocks.machines.BlockSinteringFurnace.setState(BlockSinteringFurnace.java:91) ~[BlockSinteringFurnace.class:?]
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.update(TileEntitySinteringFurnace.java:114) ~[TileEntitySinteringFurnace.class:?]
+	at net.minecraft.world.World.updateEntities(World.java:2007) ~[World.class:?]
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643) ~[WorldServer.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842) ~[MinecraftServer.class:?]
+	... 4 more
+[09:54:37] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /Users/239294/Desktop/Modding/TheLostPortal/run/./crash-reports/crash-2019-03-11_09.54.37-server.txt
+[09:54:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[09:54:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[09:54:37] [main/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: ---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 3/11/19 9:54 AM
+Description: Ticking block entity
+
+java.lang.RuntimeException: class com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace is missing a mapping! This is a bug!
+	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:89)
+	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:80)
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.writeToNBT(TileEntitySinteringFurnace.java:88)
+	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132)
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61)
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82)
+	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113)
+	at net.minecraft.world.World.setBlockState(World.java:394)
+	at com.atlas.thelostportal.objects.blocks.machines.BlockSinteringFurnace.setState(BlockSinteringFurnace.java:91)
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.update(TileEntitySinteringFurnace.java:114)
+	at net.minecraft.world.World.updateEntities(World.java:2007)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:89)
+	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:80)
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.writeToNBT(TileEntitySinteringFurnace.java:88)
+	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132)
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61)
+	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82)
+	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113)
+	at net.minecraft.world.World.setBlockState(World.java:394)
+	at com.atlas.thelostportal.objects.blocks.machines.BlockSinteringFurnace.setState(BlockSinteringFurnace.java:91)
+	at com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace.update(TileEntitySinteringFurnace.java:114)
+
+-- Block entity being ticked --
+Details:
+	Name: null // com.atlas.thelostportal.objects.blocks.tileentity.TileEntitySinteringFurnace
+	Block type: ID #258 (tile.sintering_furnace // com.atlas.thelostportal.objects.blocks.machines.BlockSinteringFurnace // thelostportal:sintering_furnace)
+	Block data value: 4 / 0x4 / 0b0100
+	Block location: World: (7,4,9), Chunk: (at 7,0,9 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Actual block type: ID #258 (tile.sintering_furnace // com.atlas.thelostportal.objects.blocks.machines.BlockSinteringFurnace // thelostportal:sintering_furnace)
+	Actual block data value: 4 / 0x4 / 0b0100
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2007)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:643)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player659'/0, l='New World', x=5.41, y=4.00, z=10.12]]
+	Chunk stats: ServerChunkCache: 625 Drop: 0
+	Level seed: 2011117741212307537
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 3;minecraft:air;127;decoration
+	Level spawn location: World: (8,4,8), Chunk: (at 8,0,8 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 97213 game time, 67881 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 964 (now: false), thunder time: 315 (now: true)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:842)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Mac OS X (x86_64) version 10.13.6
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 576903136 bytes (550 MB) / 825229312 bytes (787 MB) up to 1908932608 bytes (1820 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID            | Version      | Source                           | Signature |
+	|:--------- |:------------- |:------------ |:-------------------------------- |:--------- |
+	| UCHIJAAAA | minecraft     | 1.12.2       | minecraft.jar                    | None      |
+	| UCHIJAAAA | mcp           | 9.42         | minecraft.jar                    | None      |
+	| UCHIJAAAA | FML           | 8.0.99.99    | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | forge         | 14.23.5.2768 | forgeSrc-1.12.2-14.23.5.2768.jar | None      |
+	| UCHIJAAAA | thelostportal | 1.0          | bin                              | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player659'/0, l='New World', x=5.41, y=4.00, z=10.12]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+[09:54:37] [main/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:629]: #@!@# Game crashed! Crash report saved to: #@!@# ./crash-reports/crash-2019-03-11_09.54.37-server.txt
+[09:54:37] [main/INFO] [FML]: Waiting for the server to terminate/save.
+[09:54:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[09:54:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[09:54:37] [Server thread/INFO] [FML]: Unloading dimension 0
+[09:54:37] [Server thread/INFO] [FML]: Applying holder lookups
+[09:54:37] [Server thread/INFO] [FML]: Holder lookups applied
+[09:54:37] [Server thread/INFO] [FML]: The state engine was in incorrect state SERVER_STOPPING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[09:54:37] [main/INFO] [FML]: Server terminated.
+[09:54:37] [Client Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[09:54:37] [Client Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players

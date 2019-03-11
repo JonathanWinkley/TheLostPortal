@@ -1,0 +1,12 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "particle": "thelostportal:blocks/sintering_furnace_side",
+        "up": "thelostportal:blocks/sintering_furnace_side",
+        "down": "thelostportal:blocks/sintering_furnace_side",
+        "north": "thelostportal:blocks/sintering_furnace_front_on",
+        "east": "thelostportal:blocks/sintering_furnace_side",
+        "south": "thelostportal:blocks/sintering_furnace_side",
+        "west": "thelostportal:blocks/sintering_furnace_side"
+    }
+}
