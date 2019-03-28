@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "SSS",
+        "SFS",
+        "SCS"
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stone",
+            "data": 0
+        },
+        "C":
+        {
+            "item": "thelostportal:catalyst"
+        },
+        "F":
+        {
+            "item": "minecraft:furnace"
+        }
+    },
+    
+    "result":
+    {
+        "item": "thelostportal:non_energy_forge",
+        "count": 1
+    }
+}

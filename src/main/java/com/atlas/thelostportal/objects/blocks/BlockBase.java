@@ -10,7 +10,7 @@ import net.minecraft.item.ItemBlock;
 
 public class BlockBase extends Block
 {
-	public BlockBase(String name, Material material, CreativeTabs tab, float hardness, float resistence) 
+	public BlockBase(String name, Material material, CreativeTabs tab, float hardness, float resistence, String tool, int harvestLevel) 
 	{
 		super(material);
 		setUnlocalizedName(name);
@@ -19,6 +19,8 @@ public class BlockBase extends Block
 		
 		setHardness(hardness);
 		setResistance(resistence);
+		
+		setHarvestLevel(tool, harvestLevel);
 		
 		ModBlocksInit.BLOCKS.add(this);
 		ModItemsInit.ITEMS.add(new ItemBlock(this).setRegistryName(name));

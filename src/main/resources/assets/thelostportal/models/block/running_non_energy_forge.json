@@ -2,7 +2,7 @@
     "parent": "block/orientable",
     "textures": {
         "particle": "thelostportal:blocks/non_energy_forge_top",
-        "up": "thelostportal:blocks/blocks/non_energy_forge_top",
+        "up": "thelostportal:blocks/non_energy_forge_top",
         "down": "thelostportal:blocks/non_energy_forge_bottom",
         "north": "thelostportal:blocks/running_non_energy_forge_side",
         "east": "thelostportal:blocks/running_non_energy_forge_side",

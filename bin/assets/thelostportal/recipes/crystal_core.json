@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "DDD",
+        "DLD",
+        "DDD"
+    ],
+    
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:diamond"
+        },
+        "L":
+        {
+            "item": "minecraft:dye",
+            "data": 4
+        }
+    },
+    
+    "result":
+    {
+        "item": "thelostportal:crystal_core",
+        "count": 1
+    }
+}

@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main 
@@ -40,5 +41,11 @@ public class Main
 	public static void Postinit(FMLPostInitializationEvent event)
 	{
 		RegistryHandler.postInitRegistries();
+	}
+	
+	@EventHandler
+	public static void Serverinit(FMLServerStartingEvent event)
+	{
+		RegistryHandler.serverRegistries(event);
 	}
 }

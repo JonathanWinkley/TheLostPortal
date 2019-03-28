@@ -4,9 +4,17 @@ item.basic_blade.name=Basic Blade
 item.tier_1_blade.name=Tier 1 Blade
 item.tier_2_blade.name=Tier 2 Blade
 
+item.catalyst.name=Catalyst
+
 tile.stand_in.name=Stand In Block
 tile.nether_obi.name=Nether Infused Obsidian
 tile.chorus_stone.name=Chorus Infused End Stone
+tile.crystal_core.name=Crystal Core
+tile.catalyst_block.name=Block of Catalyst
+
+tile.end_teleporter.name=End Teleportation Module
+tile.nether_teleporter.name=Nether Teleportation Module
+tile.overworld_teleporter.name=Overworld Teleportation Module
 
 tile.non_energy_forge.name=Basic Portal Forge
 

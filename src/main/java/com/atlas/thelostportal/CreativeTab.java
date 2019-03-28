@@ -1,7 +1,8 @@
 package com.atlas.thelostportal;
 
+import com.atlas.thelostportal.objects.init.ModBlocksInit;
+
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -15,6 +16,6 @@ public class CreativeTab extends CreativeTabs
 	@Override
 	public ItemStack getTabIconItem() 
 	{
-		return new ItemStack(Item.getItemFromBlock(Blocks.END_PORTAL_FRAME));
+		return new ItemStack(Item.getItemFromBlock(ModBlocksInit.NON_ENERGY_FORGE));
 	}
 }

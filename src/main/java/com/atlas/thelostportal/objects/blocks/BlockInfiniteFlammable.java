@@ -8,9 +8,9 @@ import net.minecraft.world.World;
 
 public class BlockInfiniteFlammable extends BlockBase
 {
-	public BlockInfiniteFlammable(String name, Material material, CreativeTabs tab, float hardness, float resistence) 
+	public BlockInfiniteFlammable(String name, Material material, CreativeTabs tab, float hardness, float resistence, String tool, int harvestLevel) 
 	{
-		super(name, material, tab, resistence, resistence);
+		super(name, material, tab, hardness, resistence, tool, harvestLevel);
 		setLightLevel(5.0F);
 	}
 	

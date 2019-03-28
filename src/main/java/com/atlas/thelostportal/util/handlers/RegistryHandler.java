@@ -1,7 +1,10 @@
 package com.atlas.thelostportal.util.handlers;
 
 import com.atlas.thelostportal.Main;
+import com.atlas.thelostportal.commands.CommandDimensionTeleport;
+import com.atlas.thelostportal.objects.init.ModBiomesInit;
 import com.atlas.thelostportal.objects.init.ModBlocksInit;
+import com.atlas.thelostportal.objects.init.ModDimensions;
 import com.atlas.thelostportal.objects.init.ModItemsInit;
 
 import net.minecraft.block.Block;
@@ -11,6 +14,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 
@@ -27,6 +31,7 @@ public class RegistryHandler
 	public static void onBlockRegister(RegistryEvent.Register<Block> event)
 	{
 		event.getRegistry().registerAll(ModBlocksInit.BLOCKS.toArray(new Block[0]));
+		TileEntityHandler.registerTileEntities();
 	}
 	
 	@SubscribeEvent
@@ -45,7 +50,8 @@ public class RegistryHandler
 	
 	public static void preInitRegistries()
 	{
-		RenderHandler.registerEntityRenders();
+		ModBiomesInit.registerBiomes();
+		ModDimensions.init();
 	}
 	
 	public static void initRegistries()
@@ -56,5 +62,10 @@ public class RegistryHandler
 	public static void postInitRegistries()
 	{
 		
+	}
+	
+	public static void serverRegistries(FMLServerStartingEvent event)
+	{
+		event.registerServerCommand(new CommandDimensionTeleport());
 	}
 }

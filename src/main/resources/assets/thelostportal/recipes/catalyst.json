@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:coal",
+        "data": 0
+    },
+      {
+      "item": "minecraft:chorus_fruit"
+    }
+  ],
+  "result": {
+    "item": "thelostportal:catalyst",
+    "count": 1
+  }
+}

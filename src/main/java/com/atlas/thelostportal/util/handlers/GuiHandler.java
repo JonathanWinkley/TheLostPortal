@@ -1,8 +1,8 @@
 package com.atlas.thelostportal.util.handlers;
 
-import com.atlas.thelostportal.objects.blocks.containers.ContainerNonEnergyForge;
-import com.atlas.thelostportal.objects.blocks.guis.GuiNonEnergyForge;
-import com.atlas.thelostportal.objects.blocks.tileentity.TileEntityNonEnergyForge;
+import com.atlas.thelostportal.objects.blocks.machines.nonenergyforge.ContainerNonEnergyForge;
+import com.atlas.thelostportal.objects.blocks.machines.nonenergyforge.GuiNonEnergyForge;
+import com.atlas.thelostportal.objects.blocks.machines.nonenergyforge.TileEntityNonEnergyForge;
 import com.atlas.thelostportal.util.Reference;
 
 import net.minecraft.entity.player.EntityPlayer;
