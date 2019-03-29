@@ -5,6 +5,7 @@ import java.util.Random;
 
 import javax.annotation.Nullable;
 
+import com.atlas.thelostportal.objects.init.ModBiomesInit;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
@@ -62,7 +63,7 @@ public class FelChunkGenerator implements IChunkGenerator {
 
         byte[] biomeArray = chunk.getBiomeArray();
         for (int i = 0; i < biomeArray.length; ++i) {
-            biomeArray[i] = (byte)Biome.getIdForBiome(this.biomesForGeneration[i]);
+            biomeArray[i] = (byte)Biome.getIdForBiome(ModBiomesInit.FEL);
         }
 
         chunk.generateSkylightMap();

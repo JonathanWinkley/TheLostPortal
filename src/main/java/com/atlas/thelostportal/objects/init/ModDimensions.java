@@ -16,7 +16,7 @@ public class ModDimensions {
     }
 
     private static void registerDimensionTypes() {
-        felDimensionType = DimensionType.register(Reference.MOD_ID, "_test", 2, FelWorldProvider.class, false);
+        felDimensionType = DimensionType.register(Reference.MOD_ID, "_fel", 2, FelWorldProvider.class, false);
     }
 
     private static void registerDimensions() {
