@@ -16,7 +16,7 @@ public class ModBiomesInit
 	
 	public static void registerBiomes()
 	{
-		initBiome(FEL, "fel", BiomeType.WARM, Type.HILLS, Type.MOUNTAIN, Type.DRY);
+		initBiome(FEL, "fel", BiomeType.WARM, Type.PLAINS, Type.DRY);
 	}
 	
 	private static Biome initBiome(Biome biome, String name, BiomeType biomeType, Type... types)
@@ -24,7 +24,7 @@ public class ModBiomesInit
 		biome.setRegistryName(name);
 		ForgeRegistries.BIOMES.register(biome);
 		BiomeDictionary.addTypes(biome, types);
-		BiomeManager.addBiome(biomeType, new BiomeEntry(biome, 10));
+		BiomeManager.addBiome(biomeType, new BiomeEntry(biome, 1));
 		BiomeManager.addSpawnBiome(biome);
 		return biome;
 	}

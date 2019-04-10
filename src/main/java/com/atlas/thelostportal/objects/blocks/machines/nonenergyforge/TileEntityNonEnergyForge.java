@@ -1,6 +1,7 @@
 package com.atlas.thelostportal.objects.blocks.machines.nonenergyforge;
 
 import com.atlas.thelostportal.objects.init.ModBlocksInit;
+import com.atlas.thelostportal.util.StructureDetectionUtil;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
@@ -139,79 +140,9 @@ public class TileEntityNonEnergyForge extends TileEntity implements IInventory, 
 	
 	public boolean isBurning() 
 	{
-		if(world.getBlockState(pos.down()).getBlock() == ModBlocksInit.CHORUS_STONE && 
-			world.getBlockState(pos.down().north()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down().north().east()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down().east()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down().east().south()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down().south()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down().south().west()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down().west()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down().west().north()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(2).north()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(2).north().east()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(2).east()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(2).east().south()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(2).south()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(2).south().west()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(2).west()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(2).west().north()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(3)).getBlock() == ModBlocksInit.CHORUS_STONE && 
-			world.getBlockState(pos.down(3).north()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(3).north().east()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(3).east()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(3).east().south()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(3).south()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(3).south().west()).getBlock() == ModBlocksInit.CHORUS_STONE &&
-			world.getBlockState(pos.down(3).west()).getBlock() == Blocks.END_STONE &&
-			world.getBlockState(pos.down(3).west().north()).getBlock() == ModBlocksInit.CHORUS_STONE &&
+		if(StructureDetectionUtil.structureDetect(ModBlocksInit.CHORUS_STONE, Blocks.END_STONE, 1, pos.down(2), world) &&
 			
-			world.getBlockState(pos.north(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.north(2).east()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.north(2).east(2)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.north().east(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).south()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).south(2)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.east().south(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).west()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).west(2)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.south().west(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).north()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).north(2)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.west().north(2)).getBlock() == Blocks.OBSIDIAN &&
-			
-			world.getBlockState(pos.north(2).east(2).down()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).south(2).down()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).west(2).down()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).north(2).down()).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.north(2).east(2).down(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).south(2).down(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).west(2).down(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).north(2).down(2)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.north(2).east(2).down(3)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).south(2).down(3)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).west(2).down(3)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).north(2).down(3)).getBlock() == Blocks.OBSIDIAN &&
-			
-			world.getBlockState(pos.north(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.north(2).east().down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.north(2).east(2).down(4)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.north().east(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).south().down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.east(2).south(2).down(4)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.east().south(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).west().down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.south(2).west(2).down(4)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.south().west(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).north().down(4)).getBlock() == Blocks.OBSIDIAN &&
-			world.getBlockState(pos.west(2).north(2).down(4)).getBlock() == ModBlocksInit.NETHER_OBI &&
-			world.getBlockState(pos.west().north(2).down(4)).getBlock() == Blocks.OBSIDIAN &&
+			StructureDetectionUtil.structureDetect(Blocks.OBSIDIAN, ModBlocksInit.NETHER_OBI, 2, pos.down(2), world) &&
 			
 			world.getBlockState(pos.down(2).west(2)) == Blocks.PORTAL.getDefaultState().withRotation(Rotation.CLOCKWISE_90) &&
 			world.getBlockState(pos.down(2).south(2)) == Blocks.PORTAL.getDefaultState() &&

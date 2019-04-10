@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "thelostportal:blocks/fel_dirt",
+        "top": "thelostportal:blocks/fel_crust_top",
+        "side": "thelostportal:blocks/fel_crust_side"
+    }
+}

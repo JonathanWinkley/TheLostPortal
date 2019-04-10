@@ -4,7 +4,6 @@ import com.atlas.thelostportal.Main;
 import com.atlas.thelostportal.commands.CommandDimensionTeleport;
 import com.atlas.thelostportal.objects.init.ModBiomesInit;
 import com.atlas.thelostportal.objects.init.ModBlocksInit;
-import com.atlas.thelostportal.objects.init.ModDimensions;
 import com.atlas.thelostportal.objects.init.ModItemsInit;
 
 import net.minecraft.block.Block;
@@ -51,7 +50,6 @@ public class RegistryHandler
 	public static void preInitRegistries()
 	{
 		ModBiomesInit.registerBiomes();
-		ModDimensions.init();
 	}
 	
 	public static void initRegistries()

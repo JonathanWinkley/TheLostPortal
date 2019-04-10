@@ -5,12 +5,14 @@ import java.util.List;
 
 import com.atlas.thelostportal.Main;
 import com.atlas.thelostportal.objects.blocks.BlockBase;
+import com.atlas.thelostportal.objects.blocks.BlockFelCrust;
 import com.atlas.thelostportal.objects.blocks.BlockInfiniteFlammable;
 import com.atlas.thelostportal.objects.blocks.BlockTeleporter;
 import com.atlas.thelostportal.objects.blocks.machines.nonenergyforge.BlockNonEnergyForge;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.init.Blocks;
 
 public class ModBlocksInit 
 {
@@ -21,9 +23,13 @@ public class ModBlocksInit
 	public static final Block CRYSTAL_CORE = new BlockBase("crystal_core", Material.ROCK, Main.lostportaltab, 5.0F, 10.0F, "pickaxe", 2);
 	public static final Block CATALYST_BLOCK = new BlockBase("catalyst_block", Material.ROCK, Main.lostportaltab, 4.5F, 10.0F, "pickaxe", 1);
 	
-	public static final Block END_TELEPORTER = new BlockTeleporter("end_teleporter", 1);
-	public static final Block NETHER_TELEPORTER = new BlockTeleporter("nether_teleporter", -1);
-	public static final Block OVERWORLD_TELEPORTER = new BlockTeleporter("overworld_teleporter", 0);
+	public static final Block FEL_DIRT = new BlockBase("fel_dirt", Material.GROUND, Main.lostportaltab, 1.0F, 1.0F, "shovel", 0);
+	
+	public static final Block FEL_CRUST = new BlockFelCrust("fel_crust");
+	
+	public static final Block END_TELEPORTER = new BlockTeleporter("end_teleporter", 1, ModBlocksInit.CHORUS_STONE, Blocks.END_STONE);
+	public static final Block NETHER_TELEPORTER = new BlockTeleporter("nether_teleporter", -1, ModBlocksInit.NETHER_OBI, Blocks.OBSIDIAN);
+	public static final Block OVERWORLD_TELEPORTER = new BlockTeleporter("overworld_teleporter", 0, Blocks.COBBLESTONE, Blocks.BRICK_BLOCK);
 	
 	public static final Block NON_ENERGY_FORGE = new BlockNonEnergyForge("non_energy_forge");
 }

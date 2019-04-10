@@ -4,6 +4,7 @@ import com.atlas.thelostportal.Main;
 import com.atlas.thelostportal.commands.util.Teleport;
 import com.atlas.thelostportal.objects.init.ModBlocksInit;
 import com.atlas.thelostportal.objects.init.ModItemsInit;
+import com.atlas.thelostportal.util.StructureDetectionUtil;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,8 +19,10 @@ import net.minecraft.world.World;
 public class BlockTeleporter extends Block
 {
 	private int dim;
+	private Block block1;
+	private Block block2;
 	
-	public BlockTeleporter(String name, int dim) 
+	public BlockTeleporter(String name, int dim, Block block1, Block block2) 
 	{
 		super(Material.IRON);
 		setUnlocalizedName(name);
@@ -32,6 +35,8 @@ public class BlockTeleporter extends Block
 		setHarvestLevel("pickaxe", 4);
 		
 		this.dim = dim;
+		this.block1 = block1;
+		this.block2 = block2;
 		
 		ModBlocksInit.BLOCKS.add(this);
 		ModItemsInit.ITEMS.add(new ItemBlock(this).setRegistryName(name));
@@ -40,7 +45,7 @@ public class BlockTeleporter extends Block
 	@Override
 	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) 
 	{
-		if(!worldIn.isRemote && worldIn.getBlockState(pos.down()).getBlock() == ModBlocksInit.CATALYST_BLOCK)
+		if(!worldIn.isRemote && StructureDetectionUtil.structureDetect(block1, block2, 3, pos, worldIn))
 		{
 			if(dim == 1)
 			{
